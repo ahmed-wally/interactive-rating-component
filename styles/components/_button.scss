@@ -1,0 +1,14 @@
+@use '../utils' as *;
+// 265   36
+
+.master__btn {
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: rems(275);
+	height: rems(36);
+	margin-top: rems(25);
+	border-radius: 45px;
+	cursor: pointer;
+}

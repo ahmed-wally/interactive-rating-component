@@ -1,0 +1,20 @@
+@use '../utils' as *;
+
+.master__grid {
+	 display: grid;
+	 grid-template-columns: repeat(5, auto);
+	 gap: rems(18);
+	 margin-left: rems(31);
+	 margin-right: rems(100);
+	 
+	 &__item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: rems(40);
+		height: rems(40);
+		border-radius: 50%;
+		cursor: pointer;
+		border: none;
+	 }
+ }

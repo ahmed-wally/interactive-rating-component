@@ -1,0 +1,59 @@
+@use '../utils' as *;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.master {
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	height: rems(340);
+	width: rems(337);
+	border-radius: 25px;
+
+	&__img {
+		width: rems(300);
+		height: auto;
+		display: flex;
+		justify-content: start;
+		align-items: flex-start;
+		margin-top: rems(28);
+		margin-left: rems(24);
+		&__circle {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: rems(37);
+			height: rems(37);
+			border-radius: 50%;
+		}
+	}
+}
+
+.modal {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: rems(340);
+	width: rems(337);
+	border-radius: 25px;
+	
+	&__img {
+		margin: 25px;
+	}
+
+}
+
+.hidden {
+	display: none;
+}

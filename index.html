@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+	<main class="master">
+		<div class="master__img">
+			<div class="master__img__circle">
+				<img class="master__img__circle__icon" src="./images/icon-star.svg" alt="star icon"/>
+			</div>
+		</div>
+		<h1 class="master__heading">How did we do?</h1>
+
+	  <p class="master__paragraph">
+	  Please let us know how we did with your support request. All feedback is appreciated 
+	  to help us improve our offering!
+	  </p>
+
+	  <section class="master__grid">
+		  <button class="master__grid__item">1</button>
+		  <button class="master__grid__item">2</button>
+		  <button class="master__grid__item">3</button>
+		  <button class="master__grid__item">4</button>
+		  <button class="master__grid__item">5</button>
+	  </section>
+
+	  <div class="master__btn" role="button">SUBMIT</div>
+  </main>
+
+  <main class="modal hidden">
+	  <img class="modal__img" src="./images/illustration-thank-you.svg" alt="thank you icon" />
+	  <section class="modal__result">You selected&nbsp;<span class="modal__result__num"></span>&nbsp;out of 5</section>
+	  <h1 class="modal__thanks">Thank you!</h1>
+	  <p class="modal__paragraph">
+	  We appreciate you taking the time to give a rating.
+	  <br />
+	  If you ever need more support, 
+	  don’t hesitate to
+	  <br />
+	  get in touch!
+	  </p>
+  </main>
+	
+  <script src="./script.js"></script>
+ 
+</body>
+</html>
